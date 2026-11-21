@@ -468,10 +468,10 @@ function drawLeadGraphic(cv: Canvas, x: number, y: number, w: number, h: number)
   cv.line(x + 30, y + 8, x + 150, y + 80, WHITE, 3);
   cv.line(x + 150, y + 80, x + 210, y + 130, WHITE, 3);
   cv.line(x + 90, y + 4, x + 190, y + 70, [200, 200, 200], 2);
-  cv.line(x + 190, y + 70, x + 240, y + 120, [200, 200, 200], 2);
+  cv.line(x + 190, y + 70, x + 252, y + 138, [200, 200, 200], 2);
   // impact bursts
   cv.circle(x + 210, y + 130, 7, RED);
-  cv.circle(x + 240, y + 120, 5, RED);
+  cv.circle(x + 252, y + 138, 5, RED);
   cv.circle(x + 210, y + 130, 3, GOLD);
   cv.text("WARSAW", x + 16, y + h - 34, 2, WHITE);
   cv.text("NATO AIRSPACE", x + 16, y + h - 16, 2, GOLD);
